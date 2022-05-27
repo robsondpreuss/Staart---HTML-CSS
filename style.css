@@ -1,0 +1,51 @@
+/* h3 {
+    color:blue;
+}
+
+p strong {
+    color:green;
+}
+
+li + li + li {
+    padding-left: 20px;
+    font-weight: bold;
+    color:red; 
+}
+
+.art-class {
+    background-color: aqua;
+}
+
+#art-id {
+    background-color: blueviolet;
+}
+
+#formacao, #publicacoes {
+    font-style: italic;
+    color: brown;
+}
+
+a[href="#formacao"] {
+    color: red;
+}
+
+a:link{
+    background-color: green;
+}
+
+a:focus, a:hover, a:active {
+    background-color: yellow;
+}
+
+a::before {
+    content: "🤙🏼";
+}
+
+a::after {
+    content: "🚀";
+}
+*/
+
+header {
+    
+}

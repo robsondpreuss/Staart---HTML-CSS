@@ -17,12 +17,13 @@
         </nav>
 
         <h1 contenteditable="true">Robson D. Preuss</h1>
+        <img src="https://www.github.com/robsondpreuss.png" alt="Robson D. Preuss" id="pic">
     </header>
 
         <main>
             <section>
-                <article class="art-class">
-                    <h2 id="formacao">Formação</h2>
+                <article class="sec" id="formacao">
+                    <h2 >Formação</h2>
 
                     <h3>Lorem ipsum dolor, sit amet consectetur</h3>
                     <p><strong>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</strong></p>
@@ -32,8 +33,8 @@
 
                 </article>
 
-                <article id="art-id">
-                    <h2 id="publicacoes">Publicações</h2>
+                <article class="sec" id="publicacoes">
+                    <h2>Publicações</h2>
 
                     <h3>Lorem ipsum dolor sit, amet consectetur </h3>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione architecto in libero asperiores quidem non blanditiis porro, veritatis assumenda? Est vel ipsam quibusdam alias id laborum, possimus eum necessitatibus harum.</p>
@@ -43,8 +44,8 @@
 
                 </article>
 
-                <article>
-                    <h2 id="habilidades">Habilidades</h2>
+                <article class="sec" id="habilidades">
+                    <h2>Habilidades</h2>
 
                     <ul>
 
@@ -61,7 +62,7 @@
             <aside>
                 <h2>Vídeos</h2>
 
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/D63Mak1cvwY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/D63Mak1cvwY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
                 <!-- 
                     OPÇÕES DA TAG VIDEO
@@ -76,30 +77,30 @@
         <footer>
             <h2>Entre em contato</h2>
             <form action="">
-                <fieldset>
+                <fieldset id="fieldset1">
                     <legend>Dados Pessoais</legend>
                 <label for="nome">Nome</label>
                 <input type="text" id="nome" placeholder="Nome" required>
                 <label for="email">E-mail</label>
                 <input type="email" id="email" placeholder="E-mail" required>
                 </fieldset>
-                <fieldset>
+                <fieldset id="fieldset2">
                     <legend>Dados Comerciais</legend>
                 <label for="tel">Telefone</label>
                 <input type="tel" id="tel" placeholder="Telefone" required>
                 <label for="url">Website</label>
                 <input type="url" id="url">
                 </fieldset>
-
-                <select>
-                    <option value="">Item 0</option>
-                    <option value="">Item 1</option>
-                    <option value="">Item 2</option>
-                    <option value="">Item 3</option>
-                    <option value="">Item 4</option>
-                </select>
-
-                <textarea name="" id="" cols="30" rows="10"></textarea>
+                
+                <!--
+                    <select>
+                        <option value="">Item 0</option>
+                        <option value="">Item 1</option>
+                        <option value="">Item 2</option>
+                        <option value="">Item 3</option>
+                        <option value="">Item 4</option>
+                    </select>
+                -->
 
                 <input type="submit" value="Enviar Mensagem" id="submit">
                 

@@ -47,5 +47,201 @@ a::after {
 */
 
 header {
-    
+    background-color: #E5E5E5;
+    padding: 20px;
+    text-align: center;
 }
+
+h1, h2{
+  text-align: center;
+  font-family: 'Fredoka', sans-serif;
+}
+
+a {
+    background-color: #E5E5E5;
+    /*margin-left: 0px;*/
+    transition-property: background-color, /*margin-left*/;
+    transition-duration: 0.5s;    
+}
+
+a:hover, a:focus {
+    background-color: rgb(83, 13, 232);
+    color:#FFF;
+   /*margin-left: 15px;*/
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    display: grid;
+    grid-template-areas: "um dois";
+    grid-template-columns: auto 200px;
+}
+
+img#pic{
+    position: absolute;
+    top: 13px;
+    right: 20px;
+    width: 100px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid white;
+    box-shadow: 5px 5px 5px gray;
+}
+
+section {
+    grid-area: um;
+}
+aside{
+    grid-area: dois;
+    background-color: #315E93;
+    padding: 20px;    
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
+video {
+    width: 150px;
+}
+
+
+
+article#publicacoes {
+    background-color: #E5E5E5;
+    padding: 20px;
+    font-size: 1em;
+    line-height: 20px;
+}
+
+article#habilidades {
+    background-color: #4387D8;
+    padding: 20px;
+}
+
+footer {
+    background-color: #4387D8;
+    padding: 20px;
+}
+#fieldset1{
+    grid-area: fieldset1;
+}
+#fieldset2{
+    grid-area: fieldset2;
+}
+
+#submit{
+    grid-area: submit;
+    margin-top: 20px;
+}
+
+ 
+label[for="nome"]{
+    grid-area: labnome;
+    margin-bottom: 10px;
+}
+
+#nome{
+    grid-area: nome;
+    margin-bottom: 10px;
+}
+
+#email{
+    grid-area: email;
+}
+label[for="email"]{
+    grid-area: labmail;
+}
+
+label[for="tel"]{
+    grid-area: labtel;
+    margin-bottom: 10px;
+}
+
+#tel{
+    grid-area: tel;
+    margin-bottom: 10px;
+}
+
+#url{
+    grid-area: url;
+}
+label[for="url"]{
+    grid-area: laburl;
+}
+
+fieldset{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+  #fieldset1{
+      display: grid;
+      grid-template-areas:
+      "labnome  nome"
+      "labmail  email"
+      ;
+      grid-template-columns: 70px 1fr;
+      background-color:rgb(241, 241, 241);
+      border: 1px solid black;
+      padding: 20px;
+      color: black;
+  }
+
+  #fieldset1 legend,
+  #fieldset2 legend{
+      background-color: rgb(0, 80, 155);
+      color: white;
+      width: 100%;
+      padding: 10px;
+  }
+
+  #fieldset2{
+    display: grid;
+    grid-template-areas:
+    "labtel  tel"
+    "laburl  url"
+    ;
+    grid-template-columns: 70px 1fr;
+    background-color:rgb(241, 241, 241);
+    border: 0px;
+    padding: 20px;
+}
+
+input[type="submit"]{
+    background-color: #315E93;
+    color: white;
+    width: 500px;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px navy;
+}
+
+
+@media (max-width: 1024px) {
+    main {
+        display: block;
+    }
+}
+
+/*
+@keyframes anima {
+    0% {top:0; left:0;}
+    30% {top:50px}
+    60% {left:50px}
+    100% {top:100px; left:100px;}
+}
+    nav {
+        position: absolute;
+        animation-name: anima;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+*/
